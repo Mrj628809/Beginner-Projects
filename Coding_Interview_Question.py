@@ -1,11 +1,11 @@
-#Write your code below this row 👇
+#FIZZBUZZ
 for number in range(1,101):
   if number%3==0 and number%5==0:
-    number = "FizzBuzz"
+    number = "FIZZBUZZ"
   elif number%3==0:
-    number = "Fizz"
+    number = "FIZZ"
   elif number%5==0:
-    number = "Buzz"
+    number = "BUZZ"
   print(number)
   
   
