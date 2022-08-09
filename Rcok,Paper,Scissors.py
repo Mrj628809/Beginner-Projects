@@ -1,3 +1,4 @@
+#ROCK,PAPER,SCISSORS
 rock = '''
     _______
 ---'   ____)
@@ -25,7 +26,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 rps = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 rps2 =[rock, paper, scissors]
 if rps == str(0):  
