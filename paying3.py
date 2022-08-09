@@ -1,4 +1,4 @@
-#PAYING RANDOM 3
+#PAYING_RANDOM_3
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 import random 
