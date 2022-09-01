@@ -30,7 +30,7 @@ while True:
         if hit_stay == "1":
             amount = random.choice(cards)
             print("+" + "[" + str(amount) + "]")
-            if player_1 > 10 and amount == 11:       # Use a value of "1"
+            if player_1 > 10 and amount == 11:       
                 amount = 1
             player_1 += amount
             print("Your Score: " +  "[" + str(player_1) + "]")
@@ -59,7 +59,7 @@ while True:
         else: 
             amount = random.choice(cards)
             print("+" + "[" + str(amount) + "]")
-            if player_2 > 10 and amount == 11:       # Use a value of "1"
+            if player_2 > 10 and amount == 11:       
                 amount = 1
             player_2 += amount
             print(f"Dealers Score: [{player_2}]")
